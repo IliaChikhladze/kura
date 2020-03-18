@@ -1,6 +1,6 @@
 <?php 
 
-get_header();
+get_header(); get_header();
 
 // Get Data
 $current_layout 	= substr( infinity_options('general_tag_layout'), 0, 4 );
