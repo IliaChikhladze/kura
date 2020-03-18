@@ -1,0 +1,674 @@
+
+
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.main-wrap input,
+.main-wrap select,
+.main-wrap textarea {
+    font-size: 14px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.613;
+}
+
+.infinity-search .submit {
+    font-size: 14px;
+}
+
+.search-title {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header-search-wrap input {
+    font-size: 15px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-style: solid;
+}
+
+.header-search .submit {
+    font-size: 19px;
+}
+
+
+.meta-categories a {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.category-prefix {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.entry-content {
+    font-size: 15px;
+    line-height: 24.2px;
+}
+
+
+.read-more a {
+    text-transform: uppercase;
+    line-height: 40px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.meta-date {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+
+.author-prefix {
+    font-family: 'Playpair Display';
+    font-size: 15px;
+    font-style: italic;
+}
+
+.meta-author-date a {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.meta-tags {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.meta-tags a {
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.meta-share a {
+    line-height: 40px;
+    font-size: 15px;
+}
+
+
+.no-search-result h3 {
+    font-family: 'Open Sans';
+    font-size: 40px;
+}
+
+.overlay-title {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.overlay-text {
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
+
+.post-date {
+    font-size: 13px;
+}
+
+.rpwwt-post-author,
+.rpwwt-post-categories,
+.rpwwt-post-date,
+.rpwwt-post-comments-number {
+    font-size: 13px;
+}
+
+.author-content p {
+    font-size: 15px;
+    line-height: 24.2px;
+}
+
+.author-social a {
+    font-size: 14px;
+}
+
+.entry-comments {
+    font-size: 15px;
+    line-height: 24.2px;
+}
+
+.comment-author {
+    font-family: 'Open Sans';
+    font-size: 19px;
+    letter-spacing: 0.5px;
+}
+
+.comment-date {
+    float: right;
+    font-size: 13px;
+    padding-left: 8px; 
+}
+
+.comment-date {
+    font-size: 13px;
+}
+
+.comment-reply-title {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+}
+
+#respond {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.comment-form label {
+    font-size: 15px;
+}
+
+.wpcf7 [type="submit"],
+#submit {
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.reply a {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.infinity-pagination a,
+.numbered-current {
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.post-pagination p {
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+
+.infinity-breadcrumbs {
+    line-height: 24.27px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.infinity-widget {
+    font-size: 15px;
+    line-height: 24.27px;
+}
+
+.widget_recent_entries ul li span {
+   font-size: 12px;
+}
+
+.widget_recent_comments li,
+.widget_meta li,
+.widget_recent_comments li,
+.widget_pages > ul > li,
+.widget_archive li,
+.widget_categories > ul > li,
+.widget_recent_entries ul li {
+    line-height: 45px;
+}
+
+.widget_nav_menu li {
+    line-height: 45px;
+}
+
+.tagcloud a {
+    font-size: 12px !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#wp-calendar thead th {
+    font-family: 'Playfair Display';
+    font-size: 14px;
+}
+
+#wp-calendar caption {
+    font-family: 'Playfair Display';
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#wp-calendar tfoot #prev a,
+#wp-calendar tfoot #next a {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#wp-calendar thead tr th {
+    font-weight: 700;
+}
+
+#wp-calendar tbody td {
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#wp-calendar tbody td {
+    line-height: 40px;
+    font-size: 14px;
+}
+
+#wp-calendar tbody td a {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.social-icons a {
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.featured-item-info h4 a {
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
+
+.featured-item-date {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.infinity_author_widget h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+
+.mc4wp-form input[type="submit"] {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.carousel-category {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+
+.carousel-read-more a {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.carousel-like-comm {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.carousel-like-comm i {
+    font-size: 13px;
+}
+
+.carousel-date {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.footer-widgets {
+    font-size: 15px;
+    line-height: 24.27px;
+}
+
+.instagram-title h4 {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.footer-social a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+
+.copyright {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+
+.backtotop {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+
+.error-title {
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+}
+
+
+.error-title:before {
+    font-size: 110px;
+    line-height: 1;
+}
+
+
+.infinity-promo-box-title {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Header Typography
+ * ----------------------------------------------------------------------------------------
+ */
+
+    .site-description {
+        font-family: 'Playfair Display';
+        font-size: 15px;
+        line-height: 1.6;
+        letter-spacing:1px;
+        font-weight: 600;
+    }
+
+    .top-nav {
+        font-family: 'Open Sans';
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .top-nav .sub-menu > li > a {
+        font-size: 11px;
+        line-height: 1.8;
+        text-transform: uppercase;
+    }
+
+    .header-top-social a {
+        font-size: 14px;
+    }
+
+    /* Top bar height */
+    .top-nav ul li a,
+    .header-top-social a {
+        line-height: 46px;
+    }
+
+    .sidebar-btn,
+    .header-top {
+        height: 46px;
+    }
+
+    .site-nav .sub-menu {
+        font-size: 12px;
+    }
+
+    .nav-btn {
+        font-size: 23px;
+    }
+
+    .random-btn,
+    .search-btn {
+        font-size: 18px;
+    }
+
+    .btn-info {
+        font-size: 11px;
+        line-height: 2;
+        letter-spacing: 1px;
+        }
+
+    .site-nav {
+        font-family: 'Open Sans';
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .sub-menu-btn,
+    .site-nav-mobile li,
+    .site-nav > ul > li > a,
+    .random-btn,
+    .search-btn,
+    .nav-btn {
+        line-height: 60px;
+    }
+
+    .header-bottom {
+        height: 60px;
+    }
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * General Typography
+ * ----------------------------------------------------------------------------------------
+ */
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    blockquote p {
+        font-family: 'Playfair Display';
+        font-weight: 400;
+    }
+
+    .comment-title h2,
+    .author-content h4,
+    .related-posts-title h4,
+    .category-page-desc h4 {
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+
+    .post-pagination h4,
+    .related-posts section h4,
+    blockquote p {
+        font-size: 19px;
+        letter-spacing: 0.5px;
+    }
+
+
+    .widget-title h4 {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+
+    .carousel-title {
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: 1px;
+    }
+
+    .post-title {
+        line-height: 1.2;
+        letter-spacing: 1px;
+    }
+
+    .post-title {
+        font-size: 41px;
+    }
+
+    .col2 .post-title,
+    .col3 .post-title,
+    .list .post-title {
+        font-size: 26px;
+    }
+
+    h1 {
+        font-size: 41px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 26px;
+    }
+
+    h5 {
+        font-size: 22px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+
+
+/**
+* ----------------------------------------------------------------------------------------
+*  #Typography
+* ----------------------------------------------------------------------------------------
+*/ 
+
+    .woocommerce ul.products li.product .woocommerce-loop-category__title,
+    .woocommerce ul.products li.product .woocommerce-loop-product__title,
+    .woocommerce ul.products li.product h3 {
+        font-size: 24px;
+    }
+
+    .woocommerce div.product .woocommerce-tabs .panel > h2,
+    .woocommerce #reviews #comments h2,
+    .woocommerce .cart-collaterals .cross-sells > h2,
+    .woocommerce-page .cart-collaterals .cross-sells > h2,
+    .woocommerce .cart-collaterals .cart_totals > h2,
+    .woocommerce-page .cart-collaterals .cart_totals > h2,
+    .woocommerce-billing-fields > h3,
+    .woocommerce-shipping-fields > h3,
+    #order_review_heading,
+    #customer_login h2,
+    .woocommerce-Address-title h3,
+    .woocommerce-order-details__title,
+    .woocommerce-customer-details h2,
+    .woocommerce-columns--addresses h3,
+    .upsells.products > h2,
+    .crosssells.products > h2,
+    .related.products > h2,
+    .woocommerce-additional-fields h3 {
+        font-size: 16px;
+    }
+
+    .woocommerce div.product .woocommerce-tabs .panel > h2,
+    .woocommerce #reviews #comments h2,
+    .woocommerce .cart-collaterals .cross-sells > h2,
+    .woocommerce-page .cart-collaterals .cross-sells > h2,
+    .woocommerce .cart-collaterals .cart_totals > h2,
+    .woocommerce-page .cart-collaterals .cart_totals > h2,
+    .woocommerce-billing-fields > h3,
+    .woocommerce-shipping-fields > h3,
+    #order_review_heading,
+    #customer_login h2,
+    .woocommerce-Address-title h3,
+    .woocommerce-order-details__title,
+    .woocommerce-customer-details h2,
+    .woocommerce-columns--addresses h3,
+    .upsells.products > h2,
+    .crosssells.products > h2,
+    .related.products > h2,
+    .woocommerce-additional-fields h3 {
+        letter-spacing: 1.5px;
+    }
+
+    /* Font Size 11px */
+    .woocommerce ul.products li.product .button,
+    .woocommerce-Reviews .woocommerce-review__published-date {
+        font-size: 11px;
+    }
+
+    .woocommerce-Reviews .woocommerce-review__author {
+        font-size: 15px;
+    }
+
+    /* letter-spacing 2+ */
+    .woocommerce ul.products li.product .button {
+        letter-spacing: 2px;
+    }
+
+    /* Font Size 13px */
+    .woocommerce-result-count,
+    .woocommerce ul.products li.product .price,
+    .woocommerce .product_meta,
+    .woocommerce .product_list_widget .quantity,
+    .woocommerce .widget_products .amount,
+    .woocommerce .widget_price_filter .price_slider_amount,
+    .woocommerce .widget_recently_viewed_products .amount,
+    .woocommerce .widget_top_rated_products .amount,
+    .woocommerce .widget_recent_reviews .reviewer,
+    .woocommerce-Reviews .woocommerce-review__author {
+        font-size: 13px;
+    }
+
+    .woocommerce input.button,
+    .woocommerce a.button,
+    .woocommerce a.button.alt,
+    .woocommerce button.button.alt,
+    .woocommerce input.button.alt,
+    .woocommerce #respond input#submit.alt,
+    .woocommerce .widget_price_filter .button,
+    .woocommerce .woocommerce-message .button,
+    .woocommerce a.button.alt,
+    .woocommerce button.button.alt,
+    .woocommerce #respond input#submit,
+    .woocommerce .woocommerce-message .button,
+    .woocommerce-page .woocommerce-message .button,
+    .woocommerce form .form-row .required,
+    .woocommerce .widget_price_filter .price_slider_amount .button,
+    .woocommerce .widget_product_search button {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }

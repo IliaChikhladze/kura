@@ -1,0 +1,30 @@
+.infinity-metabox-textarea,
+.infinity-metabox-input {
+	display: block;
+	width: 80% !important;
+	margin:15px 0px;
+}
+
+.infinity-metabox-textarea {
+	height: 100px;
+}
+
+.infinity-metabox-label {
+	display: block;
+	width: 20%;
+	float: left; 
+	padding: 5px 0px;
+	font-weight: bold;
+	color: #919191;
+}
+
+#infinity-post-metabox {
+	display: block !important;
+}
+
+#infinity-post-metabox label,
+#infinity-page-meta-box label  {
+	padding: 5px 0px;
+	font-weight: bold;
+	color: #919191;
+}

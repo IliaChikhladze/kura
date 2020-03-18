@@ -1,0 +1,159 @@
+/* Customizer UI CSS */
+
+#customize-theme-controls .customize-pane-child.accordion-section-content {
+	padding: 12px 12px 40px !important;
+}
+
+.customize-control select,
+.customize-control input[type=text]:not(.wp-color-picker),
+.customize-control input[type=number],
+.customize-control-image .remove-button,
+.customize-control-image .upload-button,
+.customize-control-image .default-button {
+	width: 100% !important;
+}
+
+.customize-control-image .remove-button,
+.customize-control-image .default-button {
+	margin-bottom: 7px !important;
+}
+
+.customize-control-site_icon .remove-button,
+.customize-control-site_icon .upload-button,
+.customize-control-site_icon .default-button {
+	width: 100% !important;
+}
+
+.customize-control-image .actions {
+	margin-bottom: 0 !important;
+}
+
+li[id*="customize-control-infinity_options-social"] i {
+	height: 25px;
+	width: 25px;
+	text-align: center;
+	line-height: 25px;
+	background: #eee;
+	color: #555;
+	margin-right: 7px;
+}
+
+.control-section-default .customize-control {
+	position: relative;
+    padding: 15px 15px 0px;
+    margin-bottom: 0;
+    background: #fff;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    width: 88%;
+}
+
+#customize-control-custom_css {	
+	padding: 0!important;
+}
+
+.infinity-options-tab-title {
+	display: inline-block;
+	position: absolute;
+	top: -23px;
+	left: -1px;
+	padding: 5px 10px 0;
+	margin: 0;
+	background: #fff;
+	border-top: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+
+#customize-control-infinity_options-general_full_post,
+#customize-control-infinity_options-general_header_style,
+#customize-control-infinity_options-header_nav_align,
+#customize-control-infinity_options-header_logo,
+#customize-control-infinity_options-carousel_show,
+#customize-control-infinity_options-carousel_category,
+#customize-control-infinity_options-blog_post_window,
+#customize-control-infinity_options-blog_post_header,
+#customize-control-infinity_options-blog_post_like,
+#customize-control-infinity_options-single_post_categories,
+#customize-control-infinity_options-footer_column,
+#customize-control-show_on_front,
+#customize-control-background_color,
+#customize-control-infinity_options-header_color_bg,
+#customize-control-infinity_options-header_top_bar,
+#customize-control-infinity_options-promo_box_show,
+#customize-control-infinity_options-promo_box_title_1,
+#customize-control-infinity_options-promo_box_title_2,
+#customize-control-infinity_options-promo_box_title_3,
+#customize-control-infinity_options-promo_box_title_4,
+#customize-control-infinity_options-promo_box_title_5,
+#customize-control-infinity_options-promo_box_title_6,
+#customize-control-infinity_options-promo_box_title_7,
+#customize-control-infinity_options-promo_box_title_8,
+#customize-control-custom_logo,
+#customize-control-site_icon,
+#customize-control-background_image,
+#customize-control-infinity_options-social_icon_1,
+#customize-control-infinity_options-social_icon_2,
+#customize-control-infinity_options-social_icon_3,
+#customize-control-infinity_options-social_icon_4,
+#customize-control-infinity_options-social_icon_5,
+#customize-control-infinity_options-social_icon_6,
+#customize-control-infinity_options-social_icon_7,
+#customize-control-infinity_options-social_icon_8,
+#customize-control-infinity_options-header_typography_title_family,
+#customize-control-infinity_options-general_typography_subset_latin,
+#customize-control-header_image,
+#customize-control-infinity_options-single_post_author_page_desc {
+	margin-top: 45px !important;
+	border-top: 1px solid #ddd;
+}
+
+
+#customize-control-infinity_options-social_window {
+	margin-top: 20px !important;
+	border-top: 1px solid #ddd;
+}
+
+#customize-control-infinity_options-general_author_layout,
+#customize-control-infinity_options-header_nav_logo,
+#customize-control-infinity_options-carousel_pagination,
+#customize-control-infinity_options-carousel_post_window,
+#customize-control-infinity_options-carousel_info_text,
+#customize-control-infinity_options-blog_post_read_more_text,
+#customize-control-infinity_options-blog_post_reddit_share,
+#customize-control-infinity_options-footer_copyright,
+#customize-control-show_on_front,
+#customize-control-site_icon,
+#customize-control-infinity_options-header_logo_top_magin,
+#customize-control-infinity_options-general_preloader,
+#customize-control-infinity_options-single_post_comment_area,
+#customize-control-infinity_options-blog_post_pagination,
+#customize-control-infinity_options-promo_box_window,
+#customize-control-infinity_options-promo_box_image_1,
+#customize-control-infinity_options-promo_box_image_2,
+#customize-control-infinity_options-promo_box_image_3,
+#customize-control-infinity_options-promo_box_image_4,
+#customize-control-infinity_options-promo_box_image_5,
+#customize-control-infinity_options-promo_box_image_6,
+#customize-control-infinity_options-promo_box_image_7,
+#customize-control-infinity_options-promo_box_image_8,
+#customize-control-infinity_options-social_window,
+#customize-control-infinity_options-social_url_1,
+#customize-control-infinity_options-social_url_2,
+#customize-control-infinity_options-social_url_3,
+#customize-control-infinity_options-social_url_4,
+#customize-control-infinity_options-social_url_5,
+#customize-control-infinity_options-social_url_6,
+#customize-control-infinity_options-social_url_7,
+#customize-control-infinity_options-social_url_8,
+#customize-control-infinity_options-header_typography_title_transform,
+#customize-control-infinity_options-header_color_social,
+#customize-control-infinity_options-general_color_accent,
+#customize-control-infinity_options-header_top_align,
+#customize-control-infinity_options-general_footer_style,
+#customize-control-infinity_options-general_typography_subset_vietnamese,
+#customize-control-infinity_options-header_bg_size,
+#customize-control-infinity_options-single_post_cat_page_desc {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 18px;
+}
