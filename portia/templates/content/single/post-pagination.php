@@ -8,7 +8,7 @@
 		</a>
 		<div class="previous-inner">
 			<a href="<?php echo esc_url( get_permalink( $prev_post->ID ) ); ?>" >
-				<p><i class="fa fa-long-arrow-left"></i>&nbsp;<?php esc_html_e( 'previous', 'inf_lang' ) ; ?></p>
+				<p><i class="fa fa-long-arrow-left"></i>&nbsp;<?php esc_html_e( 'previous', 'portia' ) ; ?></p>
 				<h4><?php echo wp_kses_post( $prev_post->post_title ); ?></h4>					
 			</a>
 		</div>
@@ -24,7 +24,7 @@
 		</a>
 		<div class="next-inner">
 			<a href="<?php echo esc_url( get_permalink( $next_post->ID ) ); ?>">
-				<p><?php esc_html_e( 'newer', 'inf_lang' ) ; ?>&nbsp;<i class="fa fa-long-arrow-right"></i></p>
+				<p><?php esc_html_e( 'newer', 'portia' ) ; ?>&nbsp;<i class="fa fa-long-arrow-right"></i></p>
 				<h4><?php echo wp_kses_post( $next_post->post_title ); ?></h4>
 			</a>
 		</div>

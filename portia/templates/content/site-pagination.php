@@ -53,13 +53,13 @@
 	} else if ( infinity_options('blog_post_pagination') === 'default' ) { ?>	
 			<?php if ( get_next_posts_link() ) : ?>
 			<div class="default-previous">			
-			<?php next_posts_link( '<i class="fa fa-long-arrow-left" ></i>&nbsp;'. esc_html__( 'Older', 'inf_lang' ) ); ?>
+			<?php next_posts_link( '<i class="fa fa-long-arrow-left" ></i>&nbsp;'. esc_html__( 'Older', 'portia' ) ); ?>
 			</div>
 			<?php endif; ?>
 
 			<?php if ( get_previous_posts_link() ) : ?>
 			<div class="default-next">
-			<?php previous_posts_link( esc_html__( 'Newer', 'inf_lang' ) . '&nbsp;<i class="fa fa-long-arrow-right" ></i>' ); ?>
+			<?php previous_posts_link( esc_html__( 'Newer', 'portia' ) . '&nbsp;<i class="fa fa-long-arrow-right" ></i>' ); ?>
 			</div>
 			<?php endif; ?>
 			
@@ -69,7 +69,7 @@
 
  		if ( get_next_posts_link() ) : ?>
 		<div class="default-next">
-		<?php next_posts_link( esc_html__( 'Older', 'inf_lang' ) . '&nbsp;<i class="fa fa-long-arrow-right" ></i>' ); ?>
+		<?php next_posts_link( esc_html__( 'Older', 'portia' ) . '&nbsp;<i class="fa fa-long-arrow-right" ></i>' ); ?>
 		</div>
 		<?php endif; ?>
 		
@@ -84,7 +84,7 @@
 		</div>
 		<?php if ( get_previous_posts_link() ) : ?>
 		<div class="default-previous">
-		<?php previous_posts_link( '<i class="fa fa-long-arrow-left" ></i>&nbsp;'. esc_html__( 'Newer', 'inf_lang' ) ); ?>
+		<?php previous_posts_link( '<i class="fa fa-long-arrow-left" ></i>&nbsp;'. esc_html__( 'Newer', 'portia' ) ); ?>
 		</div>
 		<?php endif; ?>		
 

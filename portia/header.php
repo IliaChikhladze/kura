@@ -37,7 +37,7 @@
 		<?php if (  true === infinity_options('header_nav_search') ) : ?>
 		<div class="header-search-wrap">
 			<div class="header-search">
-				<div class="search-title"><?php esc_html_e('Do you want Search?', 'inf_lang' ) ; ?></div>
+				<div class="search-title"><?php esc_html_e('Do you want Search?', 'portia' ) ; ?></div>
 				<?php echo infinity_search_form(true); ?>
 			</div>
 		</div>

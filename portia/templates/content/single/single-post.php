@@ -23,7 +23,7 @@ $post_format = get_post_format() ? : 'standard';
 		if ( $category_list && infinity_options('blog_post_categories') ) {
 			echo '<div class="meta-categories">';
 				if ( infinity_options('blog_post_category_prefix') ) {
-					echo '<span class="category-prefix">'. esc_html__( 'In', 'inf_lang' ) .'</span>'; 
+					echo '<span class="category-prefix">'. esc_html__( 'In', 'portia' ) .'</span>'; 
 				}
 				echo $category_list;
 			echo'</div>';
@@ -50,7 +50,7 @@ $post_format = get_post_format() ? : 'standard';
 
 			// Post Author
 			if ( infinity_options('single_post_author') ) {
-				echo '<span class="author-prefix">'. esc_html__( 'By', 'inf_lang' ) .'</span>';
+				echo '<span class="author-prefix">'. esc_html__( 'By', 'portia' ) .'</span>';
 				printf(
 					'<a href="%1$s" rel="author">%2$s</a>',
 					esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
@@ -71,7 +71,7 @@ $post_format = get_post_format() ? : 'standard';
 	<?php
 	the_content('');
 	wp_link_pages( array(
-		'before'      => '<div class="page-links"><span class="page-links-title">' . esc_html__( 'Pages:', 'inf_lang' ) . '</span>',
+		'before'      => '<div class="page-links"><span class="page-links-title">' . esc_html__( 'Pages:', 'portia' ) . '</span>',
 		'after'       => '</div>',
 		'link_before' => '<span>',
 		'link_after'  => '</span>',

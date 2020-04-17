@@ -39,7 +39,7 @@
 
 			<?php if (  true === infinity_options('header_nav_search') ) : ?>
 				<div class="search-btn">
-					<span class="btn-info"><?php esc_html_e( 'Search', 'inf_lang' ) ; ?></span>
+					<span class="btn-info"><?php esc_html_e( 'Search', 'portia' ) ; ?></span>
 			    	<i class="fa fa-search"></i>
 			    </div>
 			<?php endif; ?>
@@ -50,7 +50,7 @@
 					<span class="cart-btn-count">
 						<?php echo WC()->cart->get_cart_contents_count(); ?>
 					</span>
-					<span class="btn-info"><?php esc_html_e( 'View cart', 'inf_lang' ) ; ?></span>
+					<span class="btn-info"><?php esc_html_e( 'View cart', 'portia' ) ; ?></span>
 				</a>
 			<?php endif; ?>
 

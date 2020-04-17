@@ -36,7 +36,7 @@
 						echo wp_kses_post( $copyright );
 
 						if ( infinity_options('footer_copyright') !== '' ) {
-							esc_html_e( ' | ', 'inf_lang' );
+							esc_html_e( ' | ', 'portia' );
 						}
 
 					?>
@@ -44,7 +44,7 @@
 					<span class="footer-credit">
 						<?php
 						$theme_data	= wp_get_theme();
-						printf( __( 'Theme by <a href="%1$s">%2$s.</a>', 'inf_lang' ), esc_url( 'http://infinitywp.com/' ), $theme_data->Author );
+						printf( __( 'Theme by <a href="%1$s">%2$s.</a>', 'portia' ), esc_url( 'http://infinitywp.com/' ), $theme_data->Author );
 						?>
 					</span>
 				</div>
@@ -54,7 +54,7 @@
 				<span class="backtotop">
 					<i class="fa fa fa-angle-double-up"></i>
 					<br>
-					<?php esc_html_e( 'Back to top', 'inf_lang' ) ; ?>
+					<?php esc_html_e( 'Back to top', 'portia' ) ; ?>
 				</span>
 				<?php endif; ?>
 

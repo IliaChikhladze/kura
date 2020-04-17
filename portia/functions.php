@@ -67,8 +67,8 @@ define( 'INFINITY_THEMEROOT', get_template_directory_uri() );
 		// Register nav menus
 		register_nav_menus(
 			array(
-				'top-menu'	=> esc_html__( 'Top Menu', 'inf_lang' ) ,
-				'main-menu'	=> esc_html__( 'Main Menu', 'inf_lang' ) 
+				'top-menu'	=> esc_html__( 'Top Menu', 'portia' ) ,
+				'main-menu'	=> esc_html__( 'Main Menu', 'portia' ) 
 			)
 		);
 
@@ -207,7 +207,7 @@ define( 'INFINITY_THEMEROOT', get_template_directory_uri() );
 		$font_url = '';
 
 		// get font url
-		if ( 'off' !== _x( 'on', 'Google font: on or off', 'inf_lang' ) ) {
+		if ( 'off' !== _x( 'on', 'Google font: on or off', 'portia' ) ) {
 			$font_url = '//fonts.googleapis.com/css?family='. $font .':100,200,300,400,500,600,700,800,900'. $subsets;
 		}
 
@@ -267,9 +267,9 @@ define( 'INFINITY_THEMEROOT', get_template_directory_uri() );
 		if ( function_exists( 'register_sidebar' ) ) {
 			register_sidebar(
 				array(
-					'name'			=> esc_html__( 'Sidebar Widget Area', 'inf_lang' ) ,
+					'name'			=> esc_html__( 'Sidebar Widget Area', 'portia' ) ,
 					'id'			=> 'sidebar-1',
-					'description'	=> esc_html__( 'Add widgets here to appear in your Right Sidebar.', 'inf_lang' ) ,
+					'description'	=> esc_html__( 'Add widgets here to appear in your Right Sidebar.', 'portia' ) ,
 					'before_widget'	=> '<div id="%1$s" class="infinity-widget %2$s">',
 					'after_widget'	=> '</div> <!-- end widget -->',
 					'before_title'	=>	'<div class="widget-title"><h4>',
@@ -279,9 +279,9 @@ define( 'INFINITY_THEMEROOT', get_template_directory_uri() );
 
 			register_sidebar(
 				array(
-					'name'			=>	esc_html__( 'Fixed Sidebar Widget Area', 'inf_lang' ) ,
+					'name'			=>	esc_html__( 'Fixed Sidebar Widget Area', 'portia' ) ,
 					'id'			=>	'sidebar-fixed',
-					'description'	=>	esc_html__( 'Add widgets here to appear in your Fixed Sidebar.', 'inf_lang' ) ,
+					'description'	=>	esc_html__( 'Add widgets here to appear in your Fixed Sidebar.', 'portia' ) ,
 					'before_widget'	=>	'<div id="%1$s" class="infinity-widget %2$s">',
 					'after_widget'	=>	'</div> <!-- end widget -->',
 					'before_title'	=>	'<div class="widget-title"><h4>',
@@ -291,9 +291,9 @@ define( 'INFINITY_THEMEROOT', get_template_directory_uri() );
 
 			register_sidebar(
 				array(
-					'name'			=> esc_html__( 'Instagram Widget Area', 'inf_lang' ) ,
+					'name'			=> esc_html__( 'Instagram Widget Area', 'portia' ) ,
 					'id'			=> 'instagram-widget',
-					'description'	=> esc_html__( 'Add widget here to appear in your Instagram Area.', 'inf_lang' ) ,
+					'description'	=> esc_html__( 'Add widget here to appear in your Instagram Area.', 'portia' ) ,
 					'before_widget'	=> '<div id="%1$s" class="instagram-widget %2$s">',
 					'after_widget'	=> '<div class="clear"></div></div> <!-- end widget -->',
 					'before_title'	=>	'<div class="instagram-title"><h4>',
@@ -303,9 +303,9 @@ define( 'INFINITY_THEMEROOT', get_template_directory_uri() );
 
 			register_sidebar(
 				array(
-					'name'			=>	esc_html__( 'Footer Widget Area', 'inf_lang' ) ,
+					'name'			=>	esc_html__( 'Footer Widget Area', 'portia' ) ,
 					'id'			=>	'footer-widgets',
-					'description'	=>	esc_html__( 'Add widgets here to appear in your Footer Widgetised Area.', 'inf_lang' ) ,
+					'description'	=>	esc_html__( 'Add widgets here to appear in your Footer Widgetised Area.', 'portia' ) ,
 					'before_widget'	=>	'<div id="%1$s" class="infinity-widget %2$s">',
 					'after_widget'	=>	'</div> <!-- end widget -->',
 					'before_title'	=>	'<div class="widget-title"><h4>',
@@ -315,9 +315,9 @@ define( 'INFINITY_THEMEROOT', get_template_directory_uri() );
 
 			register_sidebar(
 				array(
-					'name'			=> esc_html__( 'Woocommerce Widget Area', 'inf_lang' ) ,
+					'name'			=> esc_html__( 'Woocommerce Widget Area', 'portia' ) ,
 					'id'			=> 'woocommerce-widgets',
-					'description'	=> esc_html__( 'Add widgets here to appear in your Woocommerce Sidebar.', 'inf_lang' ) ,
+					'description'	=> esc_html__( 'Add widgets here to appear in your Woocommerce Sidebar.', 'portia' ) ,
 					'before_widget'	=> '<div id="%1$s" class="infinity-widget %2$s">',
 					'after_widget'	=> '</div> <!-- end widget -->',
 					'before_title'	=>	'<div class="widget-title"><h4>',
@@ -411,7 +411,7 @@ define( 'INFINITY_THEMEROOT', get_template_directory_uri() );
 	function infinity_search_form( $value = false ) {
 	
 		$form  = '<form method="get" action="'. esc_url( home_url( '/' ) ) .'" class="infinity-search" >';
-			$form .= '<input id="s" class="search_input" type="text" name="s" placeholder="'. esc_attr__( 'Type and hit Enter...', 'inf_lang' ) .'">';
+			$form .= '<input id="s" class="search_input" type="text" name="s" placeholder="'. esc_attr__( 'Type and hit Enter...', 'portia' ) .'">';
 			$form .= '<button type="submit" class="submit infinity-button" name="submit" ><i class="fa fa-search" ></i></button>';
 		$form .= '</form>';
 
@@ -444,7 +444,7 @@ define( 'INFINITY_THEMEROOT', get_template_directory_uri() );
 			while ( $random_post->have_posts() ) : $random_post->the_post(); ?>
 
 			<a class="random-btn" href="<?php esc_url( the_permalink() ); ?>">
-				<span class="btn-info"><?php esc_html_e( 'Random Article', 'inf_lang' ); ?></span>
+				<span class="btn-info"><?php esc_html_e( 'Random Article', 'portia' ); ?></span>
 				<i class="fa fa-retweet"></i>
 			</a>
 
@@ -478,7 +478,7 @@ define( 'INFINITY_THEMEROOT', get_template_directory_uri() );
 				echo '<nav class="'. esc_attr( $infinity_nav_class ) .'">';
 				echo '<ul>';
 					echo '<li>';
-						echo '<a class="set-up" href="'. esc_url(home_url('/') .'wp-admin/nav-menus.php') .'">'. esc_html__( 'Set Up Menu', 'inf_lang' ) .'</a>';
+						echo '<a class="set-up" href="'. esc_url(home_url('/') .'wp-admin/nav-menus.php') .'">'. esc_html__( 'Set Up Menu', 'portia' ) .'</a>';
 					echo '</li>';
 				echo '</ul>';
 				echo '</nav>';
@@ -619,8 +619,8 @@ if ( ! function_exists( 'infinity_similar_posts' ) ) {
 				
 			
 			<div class="no-search-result">
-				<h3><?php esc_html_e( 'Nothing Found', 'inf_lang' ) ; ?></h3>
-				<p><?php esc_html_e( 'It seems we can\'t find what you\'re looking for. Perhaps searching can help or go back to ', 'inf_lang' ) ; ?><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Homepage', 'inf_lang' ) ; ?></a></p>
+				<h3><?php esc_html_e( 'Nothing Found', 'portia' ) ; ?></h3>
+				<p><?php esc_html_e( 'It seems we can\'t find what you\'re looking for. Perhaps searching can help or go back to ', 'portia' ) ; ?><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Homepage', 'portia' ) ; ?></a></p>
 				<?php echo infinity_search_form(); ?>
 			</div>
 
@@ -674,7 +674,7 @@ if ( ! function_exists( 'infinity_post' ) ) {
 				if ( $category_list && infinity_options('blog_post_categories') ) {
 					echo '<div class="meta-categories">';
 						if ( infinity_options('blog_post_category_prefix') ) {
-							echo '<span class="category-prefix">'. esc_html__( 'In', 'inf_lang' ) .'</span>'; 
+							echo '<span class="category-prefix">'. esc_html__( 'In', 'portia' ) .'</span>'; 
 						}
 						echo $category_list;
 					echo'</div>';
@@ -701,7 +701,7 @@ if ( ! function_exists( 'infinity_post' ) ) {
 
 					// Post Author
 					if ( infinity_options('blog_post_author') ) {
-						echo '<span class="author-prefix">'. esc_html__( 'By', 'inf_lang' ) .'</span>';
+						echo '<span class="author-prefix">'. esc_html__( 'By', 'portia' ) .'</span>';
 						printf(
 							'<a href="%1$s" rel="author">%2$s</a>',
 							esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
@@ -740,7 +740,7 @@ if ( ! function_exists( 'infinity_post' ) ) {
 				} else {
 					the_content('');
 					wp_link_pages( array(
-						'before'      => '<div class="page-links"><span class="page-links-title">' . esc_html__( 'Pages:', 'inf_lang' ) . '</span>',
+						'before'      => '<div class="page-links"><span class="page-links-title">' . esc_html__( 'Pages:', 'portia' ) . '</span>',
 						'after'       => '</div>',
 						'link_before' => '<span>',
 						'link_after'  => '</span>',
@@ -896,7 +896,7 @@ if ( ! function_exists( 'infinity_post' ) ) {
 					
 					<!-- Carousel Read More -->
 					<div class="carousel-read-more">
-						<a href="<?php echo esc_url( get_the_permalink() ); ?>"><?php esc_html_e( 'Continue Reading','inf_lang' ); ?></a>
+						<a href="<?php echo esc_url( get_the_permalink() ); ?>"><?php esc_html_e( 'Continue Reading','portia' ); ?></a>
 					</div>
 					
 					<!-- Get the Date -->
@@ -1139,7 +1139,7 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 	    echo '<div class="center-width">';
 	    echo '<ul>';
 	        // Home page
-	        echo '<li><a href="' . esc_url( get_home_url( '/' ) ) . '" title="' .  esc_html__( 'Home', 'inf_lang' ) . '">' .  esc_html__( 'Home', 'inf_lang' ) . '</a></li>';
+	        echo '<li><a href="' . esc_url( get_home_url( '/' ) ) . '" title="' .  esc_html__( 'Home', 'portia' ) . '">' .  esc_html__( 'Home', 'portia' ) . '</a></li>';
 	        echo '<li class="separator"> ' . $separator . ' </li>';
 	         
 	        if ( is_single() && !is_attachment() ) {
@@ -1152,7 +1152,7 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 	        }  else if ( is_category() ) {
 	             
 	            // Category page
-	            echo '<li>' . esc_html__( 'Category Archives:&nbsp;', 'inf_lang' ) . $category[0]->cat_name . '</li>';
+	            echo '<li>' . esc_html__( 'Category Archives:&nbsp;', 'portia' ) . $category[0]->cat_name . '</li>';
 	             
 	        } else if ( is_page() || is_attachment() ) {
 	             
@@ -1195,14 +1195,14 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 	            $terms = get_terms( $taxonomy, $args );
 	             
 	            // Display the tag name
-	            echo '<li>'.esc_html__( 'Tag Archives:&nbsp;','inf_lang' ) .'&nbsp;'. $terms[0]->name . '</li>';
+	            echo '<li>'.esc_html__( 'Tag Archives:&nbsp;','portia' ) .'&nbsp;'. $terms[0]->name . '</li>';
 	         
 	        } elseif ( is_day() ) {
 	             
 	            // Day archive
 	             
 	            // Year link
-	            echo '<li><a class="bread-year bread-year-' . get_the_time('Y') . '" href="' . esc_url( get_year_link( get_the_time('Y') ) ) . '" title="' . esc_attr( get_the_time('Y') ) . '">' . get_the_time('Y') . esc_html__('&nbsp;Year', 'inf_lang' ) .'</a></li>';
+	            echo '<li><a class="bread-year bread-year-' . get_the_time('Y') . '" href="' . esc_url( get_year_link( get_the_time('Y') ) ) . '" title="' . esc_attr( get_the_time('Y') ) . '">' . get_the_time('Y') . esc_html__('&nbsp;Year', 'portia' ) .'</a></li>';
 	            echo '<li>' . $separator . '</li>';
 	             
 	            // Month link
@@ -1210,14 +1210,14 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 	            echo '<li class="separator"> ' . $separator . ' </li>';
 	             
 	            // Day display
-	            echo '<li> ' . get_the_time('jS') . esc_html__('&nbsp;Archives:', 'inf_lang' ) .'</li>';
+	            echo '<li> ' . get_the_time('jS') . esc_html__('&nbsp;Archives:', 'portia' ) .'</li>';
 	             
 	        } else if ( is_month() ) {
 	             
 	            // Month Archive
 	             
 	            // Year link
-	            echo '<li><a class="bread-year bread-year-' .esc_attr(  get_the_time('Y') ) . '" href="' . esc_url( get_year_link( get_the_time('Y') ) ). '" title="' . get_the_time('Y') . '">' . get_the_time('Y') . esc_html__('&nbsp;Year', 'inf_lang' ) .'</a></li>';
+	            echo '<li><a class="bread-year bread-year-' .esc_attr(  get_the_time('Y') ) . '" href="' . esc_url( get_year_link( get_the_time('Y') ) ). '" title="' . get_the_time('Y') . '">' . get_the_time('Y') . esc_html__('&nbsp;Year', 'portia' ) .'</a></li>';
 	            echo '<li class="separator"> ' . $separator . ' </li>';
 	             
 	            // Month display
@@ -1226,7 +1226,7 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 	        } else if ( is_year() ) {
 	             
 	            // Display year archive
-	            echo '<li>' . get_the_time('Y') . esc_html__('&nbsp;Year', 'inf_lang' ) .'</li>';
+	            echo '<li>' . get_the_time('Y') . esc_html__('&nbsp;Year', 'portia' ) .'</li>';
 	             
 	        } else if ( is_author() ) {
 	             
@@ -1237,15 +1237,15 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 	            $userdata = get_userdata( $author );
 	             
 	            // Display author name
-	            echo '<li>' . esc_html__( 'Author:', 'inf_lang' ) . '&nbsp;' . $userdata->display_name . '</li>';
+	            echo '<li>' . esc_html__( 'Author:', 'portia' ) . '&nbsp;' . $userdata->display_name . '</li>';
 	         	   
 	        } else if ( is_search() ) {
 	        	// Search results page
-	            echo '<li>' . esc_html__( 'Search results for:', 'inf_lang' ). '&nbsp;' . get_search_query() . '</li>';
+	            echo '<li>' . esc_html__( 'Search results for:', 'portia' ). '&nbsp;' . get_search_query() . '</li>';
 	      
 	        }  else if ( get_query_var('paged') ) {
 	            // Paginated archives
-	            echo '<li>'.esc_html__( 'Page:', 'inf_lang' ) . '&nbsp;' . get_query_var('paged') . '</li>';
+	            echo '<li>'.esc_html__( 'Page:', 'portia' ) . '&nbsp;' . get_query_var('paged') . '</li>';
 	        
 	        }
 	     echo '</ul>';
@@ -1285,7 +1285,7 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 				$facebook_src = 'https://www.facebook.com/sharer/sharer.php?u='.esc_url( get_the_permalink() ); ?>
 				<a class="facebook-share" target="_blank" href="<?php echo esc_url ( $facebook_src ); ?>">
 					<i class="fa fa-facebook"></i>
-					<span class="btn-info"><?php esc_html_e( 'Facebook', 'inf_lang' ) ; ?></span>
+					<span class="btn-info"><?php esc_html_e( 'Facebook', 'portia' ) ; ?></span>
 				</a>
 				<?php endif; ?>
 
@@ -1293,7 +1293,7 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 				$twitter_src = 'https://twitter.com/intent/tweet?text='.esc_attr(get_the_title()).'&url='.esc_url( get_the_permalink() ); ?>
 				<a class="twitter-share" target="_blank" href="<?php echo esc_url ( $twitter_src ); ?>">
 					<i class="fa fa-twitter"></i>
-					<span class="btn-info"><?php esc_html_e( 'Twitter', 'inf_lang' ) ; ?></span>
+					<span class="btn-info"><?php esc_html_e( 'Twitter', 'portia' ) ; ?></span>
 				</a>
 				<?php endif; ?>
 
@@ -1301,7 +1301,7 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 				$pinterest_src = 'https://pinterest.com/pin/create/button/?url='.esc_url( get_the_permalink() ).'&amp;media='.esc_url( wp_get_attachment_url( get_post_thumbnail_id($post->ID)) ).'&amp;description='.esc_attr(get_the_title()); ?>
 				<a class="pinterest-share" target="_blank" href="<?php echo esc_url ( $pinterest_src ); ?>">
 					<i class="fa fa-pinterest"></i>
-					<span class="btn-info"><?php esc_html_e( 'Pinterest', 'inf_lang' ) ; ?></span>
+					<span class="btn-info"><?php esc_html_e( 'Pinterest', 'portia' ) ; ?></span>
 				</a>
 				<?php endif; ?>
 
@@ -1309,7 +1309,7 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 				$google_src = 'https://plus.google.com/share?url='. esc_url( get_the_permalink() ); ?>
 				<a class="googleplus-share" target="_blank" href="<?php echo esc_url ( $google_src ); ?>">
 					<i class="fa fa-google-plus"></i>
-					<span class="btn-info"><?php esc_html_e( 'Google +', 'inf_lang' ) ; ?></span>
+					<span class="btn-info"><?php esc_html_e( 'Google +', 'portia' ) ; ?></span>
 				</a>										
 				<?php endif; ?>
 
@@ -1317,7 +1317,7 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 				$linkedin_src = 'http://www.linkedin.com/shareArticle?url='.esc_url( get_the_permalink() ).'&amp;title='. esc_attr(get_the_title()); ?>
 				<a class="linkedin-share" target="_blank" href="<?php echo esc_url( $linkedin_src ); ?>">
 					<i class="fa fa-linkedin"></i>
-					<span class="btn-info"><?php esc_html_e( 'Linkedin', 'inf_lang' ) ; ?></span>
+					<span class="btn-info"><?php esc_html_e( 'Linkedin', 'portia' ) ; ?></span>
 				</a>
 				<?php endif; ?>
 
@@ -1325,7 +1325,7 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 				$tumblr_src = 'http://www.tumblr.com/share/link?url='. urlencode( esc_url(get_permalink()) ) .'&amp;name='.urlencode( get_the_title() ).'&amp;description='.urlencode( get_the_excerpt() ); ?>
 				<a class="tumblr-share" target="_blank" href="<?php echo esc_url( $tumblr_src ); ?>">
 					<i class="fa fa-tumblr"></i>
-					<span class="btn-info"><?php esc_html_e( 'Tumblr', 'inf_lang' ) ; ?></span>
+					<span class="btn-info"><?php esc_html_e( 'Tumblr', 'portia' ) ; ?></span>
 				</a>
 				<?php endif; ?>
 
@@ -1333,7 +1333,7 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 				$reddit_src = 'http://reddit.com/submit?url='. esc_url( get_the_permalink() ) .'&amp;title='.esc_attr(get_the_title()); ?>
 				<a class="reddit-share" target="_blank" href="<?php echo esc_url( $reddit_src ); ?>">
 					<i class="fa fa-reddit"></i>
-					<span class="btn-info"><?php esc_html_e( 'Reddit', 'inf_lang' ) ; ?></span>
+					<span class="btn-info"><?php esc_html_e( 'Reddit', 'portia' ) ; ?></span>
 				</a>
 				<?php endif; ?>
 				<?php
@@ -1366,18 +1366,18 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 			<article <?php comment_class('entry-comments'); ?> >
 				<div class="comment-content">
 					<h3 class="comment-author">
-						<?php esc_html_e( 'Pingback:', 'inf_lang' ) ; ?>
+						<?php esc_html_e( 'Pingback:', 'portia' ) ; ?>
 					</h3>	
 					<span class="comment-date" >
 					<a href=" <?php echo esc_url( get_comment_link() ); ?> " class="comment-date" >
 						<?php
 						comment_date( get_option('date_format') );
-						esc_html_e( '&nbsp;at&nbsp;', 'inf_lang' ) ;
+						esc_html_e( '&nbsp;at&nbsp;', 'portia' ) ;
 						comment_time( get_option('time_format') );
 						?>
 					</a>
 					<?php
-						echo edit_comment_link( esc_html__('&nbsp;[Edit]', 'inf_lang' ) );
+						echo edit_comment_link( esc_html__('&nbsp;[Edit]', 'portia' ) );
 					?>
 					</span>
 					<div class="clear"></div>
@@ -1410,18 +1410,18 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 					<a href=" <?php echo esc_url( get_comment_link() ); ?> ">
 						<?php
 						comment_date( get_option('date_format') );
-						esc_html_e( '&nbsp;at&nbsp;', 'inf_lang' ) ;
+						esc_html_e( '&nbsp;at&nbsp;', 'portia' ) ;
 						comment_time( get_option('time_format') );
 						?>
 					</a>
 					<?php
-						echo edit_comment_link( esc_html__('&nbsp;[Edit]', 'inf_lang' ) );
+						echo edit_comment_link( esc_html__('&nbsp;[Edit]', 'portia' ) );
 					?>
 					</span>
 					<div class="clear"></div>
 					<div class="comment-text entry-content">
 					<?php if($comment->comment_approved == '0') : ?>
-					<p class="awaiting-moderation"><?php esc_html_e('Your comment is awaiting moderation.', 'inf_lang' ) ; ?></p>
+					<p class="awaiting-moderation"><?php esc_html_e('Your comment is awaiting moderation.', 'portia' ) ; ?></p>
 					<?php endif; ?>
 					<?php comment_text(); ?>
 					</div>
@@ -1445,7 +1445,7 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 	function infinity_comment_form( $defaults ) {
 		$defaults['comment_notes_before'] = '';
 		$defaults['id_form'] = 'comment-form';
-		$defaults['comment_field'] = '<p class="custom-textarea"><label for="comment">'. esc_html__( 'Comment', 'inf_lang' ) .'</label><textarea name="comment" id="comment" cols="30" rows="10"></textarea></p>';
+		$defaults['comment_field'] = '<p class="custom-textarea"><label for="comment">'. esc_html__( 'Comment', 'portia' ) .'</label><textarea name="comment" id="comment" cols="30" rows="10"></textarea></p>';
 	 
 		return $defaults;
 	}
@@ -1460,17 +1460,17 @@ if ( ! function_exists( 'infinity_breadcrumb' ) ) {
 
 		$fields = array(
 			'author' => '<p>' .
-						'<label for="author">'.esc_html__('Name', 'inf_lang' )  . ' '.($req ? '*' : ' ' ) .'</label>'.
+						'<label for="author">'.esc_html__('Name', 'portia' )  . ' '.($req ? '*' : ' ' ) .'</label>'.
 						'<input type="text"  name="author" id="author"  value="'. esc_attr($commenter['comment_author']).'" '.$aria_req.'/>'.
 						'</p>',
 
 			 'email' => '<p>' .
-						'<label for="email">'.esc_html__('Email', 'inf_lang' )  . ' '.($req ? '*' : ' ' ) .'</label>'.
+						'<label for="email">'.esc_html__('Email', 'portia' )  . ' '.($req ? '*' : ' ' ) .'</label>'.
 						'<input type="text"  name="email" id="email"  value="'. esc_attr($commenter['comment_author_email']).'" '.$aria_req.'/>'.
 						'</p>',	
 
 			 'url' =>  '<p>' .
-						'<label for="url">'.esc_html__('Website', 'inf_lang' )  .'</label>'.
+						'<label for="url">'.esc_html__('Website', 'portia' )  .'</label>'.
 						'<input type="text"  name="url" id="url"  value="'. esc_attr($commenter['comment_author_url']).'"/>'.
 						'</p>',	
 		);
@@ -1634,7 +1634,7 @@ function woocommerce_header_add_to_cart_fragment( $fragments ) {
 		<span class="cart-btn-count">
 			<?php echo $woocommerce->cart->cart_contents_count; ?>
 		</span>	
-		<span class="btn-info"><?php esc_html_e( 'View cart', 'inf_lang' ) ; ?></span>
+		<span class="btn-info"><?php esc_html_e( 'View cart', 'portia' ) ; ?></span>
 	</a>
 	<?php
 	$fragments['a.cart-btn'] = ob_get_clean();

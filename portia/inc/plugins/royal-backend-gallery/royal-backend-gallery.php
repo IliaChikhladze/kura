@@ -43,7 +43,7 @@
 	function royal_add_gallery_post_meta_box() {
 		add_meta_box(
 			'royal_gallery_post_meta_box',
-			__( 'Post Format: Gallery', 'inf_lang' ),
+			__( 'Post Format: Gallery', 'portia' ),
 			'royal_display_gallery_post_meta_box',
 			'post',
 			'normal',
@@ -69,7 +69,7 @@
 		$html .= '<input type="text" name="rf_gallery_imgs_src" id="rf_gallery_imgs_src" class="widefat" value="'. esc_attr( $rf_gallery_imgs_src ) .'" />';
 		
 		// upload gallery image button
-		$html .= '<input type="button" id="rf_gallery_imgs_upload" class="royal-upload-btn button button-primary" value="'. __( 'Add Image', 'inf_lang' ) .'" />';
+		$html .= '<input type="button" id="rf_gallery_imgs_upload" class="royal-upload-btn button button-primary" value="'. __( 'Add Image', 'portia' ) .'" />';
 		
 		// gallery images wrapper block
 		$html .= '<div class="gallery-wrap"><ul id="sortable"></ul></div>';

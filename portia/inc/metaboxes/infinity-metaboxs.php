@@ -20,32 +20,32 @@ $infinity_metaboxes = array(
     
      // Post Options metaboxes
     'infinity-post-metabox' => array(
-        'title'             => esc_html__('Post Options', 'inf_lang'),
+        'title'             => esc_html__('Post Options', 'portia'),
         'applicableto'      => 'post',
         'location'          => 'normal',
         'display_condition' => 'post-option',
         'priority'          => 'high',
         'fields'            => array(
             'carousel-post'    => array(
-                'title'         => esc_html__('&nbsp;Show Feature Image in Carousel', 'inf_lang'),
+                'title'         => esc_html__('&nbsp;Show Feature Image in Carousel', 'portia'),
                 'type'          => 'checkbox',
                 'description'   => '',
                 'class'         => ''
             ),
             'hide-feature-media' => array(
-                'title'         => esc_html__('&nbsp;Hide Feature Image on Single Page', 'inf_lang'),
+                'title'         => esc_html__('&nbsp;Hide Feature Image on Single Page', 'portia'),
                 'type'          => 'checkbox',
                 'description'   => '',
                 'class'         => ''
             ),
             'hide-logo'      => array(
-                'title'         => esc_html__('&nbsp;Hide Logo on Single Page', 'inf_lang'),
+                'title'         => esc_html__('&nbsp;Hide Logo on Single Page', 'portia'),
                 'type'          => 'checkbox',
                 'description'   => '',
                 'class'         => ''
             ),
             'hide-sidebar' => array(
-                'title'         => esc_html__('&nbsp;Hide Sidebar on Single Page', 'inf_lang'),
+                'title'         => esc_html__('&nbsp;Hide Sidebar on Single Page', 'portia'),
                 'type'          => 'checkbox',
                 'description'   => '',
                 'class'         => ''
@@ -54,62 +54,62 @@ $infinity_metaboxes = array(
     ),
     // Page Options
     'infinity-page-meta-box' => array(
-        'title'             => esc_html__('Page Options', 'inf_lang'),
+        'title'             => esc_html__('Page Options', 'portia'),
         'applicableto'      => 'page',
         'location'          => 'normal',   
         'display_condition' => 'page-option',
         'priority'          => 'high',
         'fields'            => array(  
             'show-carousel'    => array(
-                'title'         => esc_html__('&nbsp;Show Carousel', 'inf_lang'),
+                'title'         => esc_html__('&nbsp;Show Carousel', 'portia'),
                 'type'          => 'checkbox',
                 'description'   => '',
                 'class'         => ''
             ),
             'show-promo-box'    => array(
-                'title'         => esc_html__('&nbsp;Show Promo Boxes', 'inf_lang'),
+                'title'         => esc_html__('&nbsp;Show Promo Boxes', 'portia'),
                 'type'          => 'checkbox',
                 'description'   => '',
                 'class'         => ''
             ),
             'carousel-post'    => array(
-                'title'         => esc_html__('&nbsp;Show Feature Image in Carousel', 'inf_lang'),
+                'title'         => esc_html__('&nbsp;Show Feature Image in Carousel', 'portia'),
                 'type'          => 'checkbox',
                 'description'   => '',
                 'class'         => ''
             ),
             'hide-logo'      => array(
-                'title'         => esc_html__('&nbsp;Hide Logo', 'inf_lang'),
+                'title'         => esc_html__('&nbsp;Hide Logo', 'portia'),
                 'type'          => 'checkbox',
                 'description'   => '',
                 'class'         => ''
             ),
             'hide-feature-media' => array(
-                'title'         => esc_html__('&nbsp;Hide Feature Image', 'inf_lang'),
+                'title'         => esc_html__('&nbsp;Hide Feature Image', 'portia'),
                 'type'          => 'checkbox',
                 'description'   => '',
                 'class'         => ''
             ),
              'hide-title'      => array(
-                'title'         => esc_html__('&nbsp;Hide Title', 'inf_lang'),
+                'title'         => esc_html__('&nbsp;Hide Title', 'portia'),
                 'type'          => 'checkbox',
                 'description'   => '',
                 'class'         => ''
             ),
             'show-social'      => array(
-                'title'         => esc_html__('&nbsp;Show Social Share Buttons', 'inf_lang'),
+                'title'         => esc_html__('&nbsp;Show Social Share Buttons', 'portia'),
                 'type'          => 'checkbox',
                 'description'   => '',
                 'class'         => ''
             ),
             'full-style'      => array(
-                'title'         => esc_html__('&nbsp;Content Full Style', 'inf_lang'),
+                'title'         => esc_html__('&nbsp;Content Full Style', 'portia'),
                 'type'          => 'checkbox',
                 'description'   => '',
                 'class'         => ''
             ),
             'sidebar-position'    => array(
-                'title'         => esc_html__('Sidebar Position&nbsp;', 'inf_lang'),
+                'title'         => esc_html__('Sidebar Position&nbsp;', 'portia'),
                 'type'          => 'select',
                 'description'   => '',
                 'class'         => ''
@@ -118,7 +118,7 @@ $infinity_metaboxes = array(
     ),
     // Link metaboxes
     'infinity-link-meta-box' => array(
-        'title'             => esc_html__('Link Format', 'inf_lang'),
+        'title'             => esc_html__('Link Format', 'portia'),
         'applicableto'      => 'post',
         'location'          => 'normal',
         'display_condition' => 'post-format-link',
@@ -126,14 +126,14 @@ $infinity_metaboxes = array(
         'fields'            => array(     
            
             'link_text'   => array(
-                'title'         => esc_html__('Link Text:', 'inf_lang'),
+                'title'         => esc_html__('Link Text:', 'portia'),
                 'type'          => 'input',
                 'description'   => '',
                 'class'         => 'infinity-metabox'
             ),
 
             'link_url'   => array(
-                'title'         => esc_html__('Link (URL):', 'inf_lang'),
+                'title'         => esc_html__('Link (URL):', 'portia'),
                 'type'          => 'input',
                 'description'   => '',
                 'class'         => 'infinity-metabox'
@@ -142,21 +142,21 @@ $infinity_metaboxes = array(
     ),
     // quote metaboxes
     'infinity-quote-meta-box'    => array(
-        'title'             => esc_html__('Quote Format', 'inf_lang'),
+        'title'             => esc_html__('Quote Format', 'portia'),
         'applicableto'      => 'post',
         'location'          => 'normal',
         'display_condition' => 'post-format-quote',
         'priority'          => 'core',
         'fields'            => array(            
             'quote_text'       => array(
-                'title'         => esc_html__('Quote:', 'inf_lang'),
+                'title'         => esc_html__('Quote:', 'portia'),
                 'type'          => 'input',
                 'description'   => '',
                 'class'         => 'infinity-metabox'
             ),
             
             'quote_author'  => array(
-                'title'         => esc_html__('Quote Author:', 'inf_lang'),
+                'title'         => esc_html__('Quote Author:', 'portia'),
                 'type'          => 'input',
                 'description'   => '',
                 'class'         => 'infinity-metabox'
@@ -220,9 +220,9 @@ function infinity_show_metaboxes( $post, $args ) {
                     <p>
                         <label for="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $field['class'] ); ?>-label" > <?php echo $field['title']; ?></label>
                         <select id="<?php echo esc_attr( $id ); ?>" name="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $field['class'] ); ?>-select">
-                            <option value="nsidebar" <?php echo $select_nsidebar; ?>><?php esc_html_e( 'None', 'inf_lang' ) ?></option>
-                            <option value="rsidebar" <?php echo $select_rsidebar; ?>><?php esc_html_e( 'Right Sidebar', 'inf_lang' ) ?></option>
-                            <option value="lsidebar" <?php echo $select_lsidebar; ?>><?php esc_html_e( 'Left Sidebar', 'inf_lang' ) ?></option>
+                            <option value="nsidebar" <?php echo $select_nsidebar; ?>><?php esc_html_e( 'None', 'portia' ) ?></option>
+                            <option value="rsidebar" <?php echo $select_rsidebar; ?>><?php esc_html_e( 'Right Sidebar', 'portia' ) ?></option>
+                            <option value="lsidebar" <?php echo $select_lsidebar; ?>><?php esc_html_e( 'Left Sidebar', 'portia' ) ?></option>
                         </select>             
                     </p>
                 </div>
@@ -326,12 +326,12 @@ add_action( 'admin_print_scripts', 'infinity_display_metaboxes', 1000 );
 // Add a category header image field 
 function add_category_header_img( $taxonomy ) { ?>
     <div class="form-field term-header-img-wrap">
-        <label for="category-header-img-data"><?php esc_html_e( 'Header Image', 'inf_lang' ); ?></label>
+        <label for="category-header-img-data"><?php esc_html_e( 'Header Image', 'portia' ); ?></label>
         <input type="hidden" id="category-header-img-data" name="category-header-img-data" >
         <p><img id="category-header-img" style="width: 200px;cursor: pointer;"></p>
-        <p id="category-header-img-desc" style="color: #666;font-style: italic;"> <?php esc_html_e('Click the image to edit or update', 'inf_lang'); ?></p>
-        <a href="#" id="category-header-img-upload"><?php esc_html_e('Set header image', 'inf_lang'); ?></a>
-        <a href="#" id="category-header-img-remove"><?php esc_html_e('Remove header image', 'inf_lang'); ?></a>
+        <p id="category-header-img-desc" style="color: #666;font-style: italic;"> <?php esc_html_e('Click the image to edit or update', 'portia'); ?></p>
+        <a href="#" id="category-header-img-upload"><?php esc_html_e('Set header image', 'portia'); ?></a>
+        <a href="#" id="category-header-img-remove"><?php esc_html_e('Remove header image', 'portia'); ?></a>
     </div>
     <?php
 }
@@ -350,15 +350,15 @@ add_action( 'created_category','save_category_header_img', 10, 2 );
 function update_category_header_img( $term, $taxonomy ) { ?>
     <tr class="form-field term-header-img-wrap">
         <th scope="row">
-            <label for="category-header-img-data"><?php esc_html_e( 'Header Image', 'inf_lang' ); ?></label>
+            <label for="category-header-img-data"><?php esc_html_e( 'Header Image', 'portia' ); ?></label>
         </th>
         <td>
             <?php $category_header_img_url = get_term_meta( $term->term_id, 'category-header-img-data', true ); ?>
             <input type="hidden" id="category-header-img-data" name="category-header-img-data"  value="<?php echo esc_url($category_header_img_url); ?>" >
             <p><img id="category-header-img" src="<?php echo esc_url($category_header_img_url); ?>" style="width: 200px;cursor: pointer;"></p>    
-            <p id="category-header-img-desc" style="color: #666;font-style: italic;"> <?php esc_html_e('Click the image to edit or update', 'inf_lang'); ?></p>
-            <p><a href="#" id="category-header-img-upload"><?php esc_html_e('Set header image', 'inf_lang'); ?></a></p>
-            <p><a href="#" id="category-header-img-remove"><?php esc_html_e('Remove header image', 'inf_lang'); ?></a></p>
+            <p id="category-header-img-desc" style="color: #666;font-style: italic;"> <?php esc_html_e('Click the image to edit or update', 'portia'); ?></p>
+            <p><a href="#" id="category-header-img-upload"><?php esc_html_e('Set header image', 'portia'); ?></a></p>
+            <p><a href="#" id="category-header-img-remove"><?php esc_html_e('Remove header image', 'portia'); ?></a></p>
  
         </td>
     </tr>
@@ -382,7 +382,7 @@ function add_category_logo( $taxonomy ) { ?>
      <div class="form-field term-logo-wrap">
         <label for="category-logo" >
         <input type="checkbox" id="category-logo"  name="category-logo" value="false"  />
-        <?php esc_html_e( 'Hide Logo', 'inf_lang' ); ?>
+        <?php esc_html_e( 'Hide Logo', 'portia' ); ?>
         </label>
     </div>
     <?php
@@ -404,7 +404,7 @@ function update_category_logo( $term, $taxonomy ) {
     $field_checked = ($field_value)?'checked':''; ?>
     <tr class="form-field term-logo-wrap">
         <th scope="row">
-            <label for="category-logo" ><?php esc_html_e( 'Hide Logo', 'inf_lang' ); ?></label>
+            <label for="category-logo" ><?php esc_html_e( 'Hide Logo', 'portia' ); ?></label>
         </th>
         <td>
             <input type="checkbox" id="category-logo"  name="category-logo" value="false" <?php echo $field_checked; ?> />
@@ -427,8 +427,8 @@ add_action( 'edited_category','updated_category_logo', 10, 2 );
 
 // Register Page Header Image Metabox
 function register_page_header_img() {
-    add_meta_box( 'image_metabox', esc_html__('Header Image', 'inf_lang'), 'page_header_img_callback', 'post', 'side', 'low', 'image_metabox' );
-    add_meta_box( 'image_metabox', esc_html__('Header Image', 'inf_lang'), 'page_header_img_callback', 'page', 'side', 'low', 'image_metabox' );
+    add_meta_box( 'image_metabox', esc_html__('Header Image', 'portia'), 'page_header_img_callback', 'post', 'side', 'low', 'image_metabox' );
+    add_meta_box( 'image_metabox', esc_html__('Header Image', 'portia'), 'page_header_img_callback', 'page', 'side', 'low', 'image_metabox' );
 }
 add_action( 'add_meta_boxes', 'register_page_header_img' );
 
@@ -439,9 +439,9 @@ function page_header_img_callback( $post_id ) {
         <?php $image_url = get_post_meta( get_the_ID(), 'page-header-img-data', true ); ?>
         <p><img id="page-header-img" src="<?php echo esc_url($image_url); ?>" style="width: 100%;cursor: pointer;"></p>
         <input type="hidden" id="page-header-img-data" name="page-header-img-data" value="<?php echo esc_url($image_url); ?>">
-        <p id="page-header-img-desc" style="color: #666;font-style: italic;"> <?php esc_html_e('Click the image to edit or update', 'inf_lang'); ?></p>
-        <p><a href="#" id="page-header-img-upload"><?php esc_html_e('Set header image', 'inf_lang'); ?></a></p>
-        <p><a href="#" id="page-header-img-remove"><?php esc_html_e('Remove header image', 'inf_lang'); ?></a></p>
+        <p id="page-header-img-desc" style="color: #666;font-style: italic;"> <?php esc_html_e('Click the image to edit or update', 'portia'); ?></p>
+        <p><a href="#" id="page-header-img-upload"><?php esc_html_e('Set header image', 'portia'); ?></a></p>
+        <p><a href="#" id="page-header-img-remove"><?php esc_html_e('Remove header image', 'portia'); ?></a></p>
         <p></p>
     </div>
     <?php

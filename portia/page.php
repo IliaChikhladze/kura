@@ -61,7 +61,7 @@ $container_style = (get_post_meta( get_the_ID(), 'full-style', true ))?'':'cente
 		<?php endif; ?>
 		
 		<?php endwhile; else : ?>
-			<h1><?php esc_html_e( 'no page where found','inf_lang' ) ; ?></h1>
+			<h1><?php esc_html_e( 'no page where found','portia' ) ; ?></h1>
 		<?php endif; ?>
 		</div>
 
