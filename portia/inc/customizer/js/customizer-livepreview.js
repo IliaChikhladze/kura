@@ -27,7 +27,7 @@
 	infinityLivePreview('header_color_text_hv', function(val){
 		var css = '\
 		.site-title:hover {\
-			color: '+ val +';\
+			color: '+ val +' !important;\
 		}\
 		';
 		infinityStyle('header_color_text_hv', css);

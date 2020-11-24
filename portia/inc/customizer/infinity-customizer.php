@@ -708,10 +708,13 @@ function infinity_customize_register( $wp_customize ) {
 	));
 
 	// Show Promo Boxes
-	infinity_checkbox_option( 'promo_box', 'show', esc_html__( 'Show Promo Boxes', 'portia' ), 'refresh', 5 );
+	infinity_checkbox_option( 'promo_box', 'show', esc_html__( 'Show Promo Boxes', 'portia' ), 'refresh', 1 );
 
-	// Open New Window
-	infinity_checkbox_option( 'promo_box', 'window', esc_html__( 'Open Post In New Window', 'portia' ), 'refresh', 12 );
+	// Columns
+	infinity_number_option( 'promo_box', 'columns', esc_html__( 'Columns', 'portia' ), array( 'min' => '0', 'step' => '1', 'max' => '3' ), 'refresh', 11 );
+
+	// Show Border
+	infinity_checkbox_option( 'promo_box', 'show_border', esc_html__( 'Show Border', 'portia' ), 'refresh', 14 );
 
 	// Promo Box 1
 	infinity_text_option( 'promo_box', 'title_1', esc_html__( 'Title', 'portia' ), 'refresh', 15 );
@@ -719,6 +722,8 @@ function infinity_customize_register( $wp_customize ) {
 	infinity_url_option( 'promo_box', 'link_1', esc_html__( 'Link To', 'portia' ), 'refresh', 20 );
 
 	infinity_image_option( 'promo_box', 'image_1', esc_html__( 'Image', 'portia' ), 'refresh', 25 );
+	
+	infinity_checkbox_option( 'promo_box', 'window_1', esc_html__( 'Open Post In New Window', 'portia' ), 'refresh', 27 );
 
 	// Promo Box 2
 	infinity_text_option( 'promo_box', 'title_2', esc_html__( 'Title', 'portia' ), 'refresh', 30 );
@@ -726,6 +731,8 @@ function infinity_customize_register( $wp_customize ) {
 	infinity_url_option( 'promo_box', 'link_2', esc_html__( 'Link To', 'portia' ), 'refresh', 35 );
 
 	infinity_image_option( 'promo_box', 'image_2', esc_html__( 'Image', 'portia' ), 'refresh', 40 );
+	
+	infinity_checkbox_option( 'promo_box', 'window_2', esc_html__( 'Open Post In New Window', 'portia' ), 'refresh', 42 );
 
 	// Promo Box 3
 	infinity_text_option( 'promo_box', 'title_3', esc_html__( 'Title', 'portia' ), 'refresh', 45 );
@@ -733,6 +740,8 @@ function infinity_customize_register( $wp_customize ) {
 	infinity_url_option( 'promo_box', 'link_3', esc_html__( 'Link To', 'portia' ), 'refresh', 50 );
 
 	infinity_image_option( 'promo_box', 'image_3', esc_html__( 'Image', 'portia' ), 'refresh', 55 );
+	
+	infinity_checkbox_option( 'promo_box', 'window_3', esc_html__( 'Open Post In New Window', 'portia' ), 'refresh', 58 );
 
 
 

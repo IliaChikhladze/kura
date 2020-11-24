@@ -46,6 +46,7 @@ jQuery(document).ready(function( $ ) {
 	infinityTabsTitle( 'footer_color_copyright_bg', 'Copyright Section' );
 	infinityTabsTitle( 'footer_color_social_text', 'Footer Social' );
 	infinityTabsTitle( 'footer_column', 'Settings' );
+	infinityTabsTitle( 'social_window', 'Settings' );
 	infinityTabsTitle( 'social_icon_1', 'Social 1' );
 	infinityTabsTitle( 'social_icon_2', 'Social 2' );
 	infinityTabsTitle( 'social_icon_3', 'Social 3' );
@@ -67,6 +68,7 @@ jQuery(document).ready(function( $ ) {
 	$( '#customize-control-site_icon' ).prepend('<h3 class="infinity-options-tab-title">Site Icon</h3>');
 	$( '#customize-control-background_image' ).prepend('<h3 class="infinity-options-tab-title">Settings</h3>');
 	$( '#customize-control-header_image' ).prepend('<h3 class="infinity-options-tab-title">Settings</h3>');
+	$( '#customize-control-background_image' ).prepend('<h3 class="infinity-options-tab-title">Settings</h3>');
 
 
 }); // end ready

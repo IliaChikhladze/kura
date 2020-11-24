@@ -947,50 +947,49 @@ if ( ! function_exists( 'infinity_post' ) ) {
 			if ( infinity_is_woo_activated() && ( is_product_category() || is_product() ) ) {
 				return;
 			} 
-
-			$new_window = ( true === infinity_options( 'promo_box_window' ) )?'_blank':'_self'; ?>
+			?>
 
 			<div class="infinity-promo-box-area <?php echo ( infinity_options('general_promo_box_style') === 'boxed' ) ? 'center-width' : ''; ?>">
-				
-				<!-- Promo Box 1 -->
+		
 				<?php if ( !empty( infinity_options('promo_box_image_1') ) || ! empty( infinity_options('promo_box_title_1') ) ) : ?>	
-				<div class="infinity-promo-box">
+				<div class="infinity-promo-box" style="background-image:url(<?php echo esc_url(infinity_options('promo_box_image_1') ); ?>)">
 					<?php if ( ! empty( infinity_options('promo_box_link_1') ) ): ?>
-						<a href="<?php echo esc_url(infinity_options('promo_box_link_1')); ?>" class="infinity-promo-box-link" target="<?php echo esc_attr($new_window); ?>"></a>
+						<a href="<?php echo esc_url(infinity_options('promo_box_link_1')); ?>" class="infinity-promo-box-link" <?php if(infinity_options('promo_box_window_1') == true) : ?>target="_blank"<?php endif; ?>></a>
 					<?php endif; ?>
-					<div class="infinity-promo-box-bg" style="background-image:url(<?php echo esc_url(infinity_options('promo_box_image_1') ); ?>)"></div>
+					<div class="infinity-promo-box-overlay">
 					<?php if ( ! empty( infinity_options('promo_box_title_1') ) ) : ?>
 						<h4 class="infinity-promo-box-title"><?php echo esc_html( infinity_options('promo_box_title_1') ); ?></h4>
 					<?php endif; ?>
+					</div>
 				</div>
 				<?php endif; ?>
-
-				<!-- Promo Box 2 -->
+			
 				<?php if ( !empty( infinity_options('promo_box_image_2') ) || ! empty( infinity_options('promo_box_title_2') ) ) : ?>	
-				<div class="infinity-promo-box">
+				<div class="infinity-promo-box" style="background-image:url(<?php echo esc_url(infinity_options('promo_box_image_2') ); ?>)">
 					<?php if ( ! empty( infinity_options('promo_box_link_2') ) ): ?>
-						<a href="<?php echo esc_url(infinity_options('promo_box_link_2')); ?>" class="infinity-promo-box-link" target="<?php echo esc_attr($new_window); ?>"></a>
+						<a href="<?php echo esc_url(infinity_options('promo_box_link_2')); ?>" class="infinity-promo-box-link" <?php if(infinity_options('promo_box_window_2') == true) : ?>target="_blank"<?php endif; ?>></a>
 					<?php endif; ?>
-					<div class="infinity-promo-box-bg" style="background-image:url(<?php echo esc_url(infinity_options('promo_box_image_2') ); ?>)"></div>
+					<div class="infinity-promo-box-overlay">
 					<?php if ( ! empty( infinity_options('promo_box_title_2') ) ) : ?>
 						<h4 class="infinity-promo-box-title"><?php echo esc_html( infinity_options('promo_box_title_2') ); ?></h4>
 					<?php endif; ?>
+					</div>
 				</div>
-				<?php endif; ?>
-
-				<!-- Promo Box 3 -->
+				<?php endif; ?>			
+			
 				<?php if ( !empty( infinity_options('promo_box_image_3') ) || ! empty( infinity_options('promo_box_title_3') ) ) : ?>	
-				<div class="infinity-promo-box">
+				<div class="infinity-promo-box" style="background-image:url(<?php echo esc_url(infinity_options('promo_box_image_3') ); ?>)">
 					<?php if ( ! empty( infinity_options('promo_box_link_3') ) ): ?>
-						<a href="<?php echo esc_url(infinity_options('promo_box_link_3')); ?>" class="infinity-promo-box-link" target="<?php echo esc_attr($new_window); ?>"></a>
+						<a href="<?php echo esc_url(infinity_options('promo_box_link_3')); ?>" class="infinity-promo-box-link" <?php if(infinity_options('promo_box_window_3') == true) : ?>target="_blank"<?php endif; ?>></a>
 					<?php endif; ?>
-					<div class="infinity-promo-box-bg" style="background-image:url(<?php echo esc_url(infinity_options('promo_box_image_3') ); ?>)"></div>
+					<div class="infinity-promo-box-overlay">
 					<?php if ( ! empty( infinity_options('promo_box_title_3') ) ) : ?>
 						<h4 class="infinity-promo-box-title"><?php echo esc_html( infinity_options('promo_box_title_3') ); ?></h4>
 					<?php endif; ?>
+					</div>
 				</div>
-				<?php endif; ?>
-
+				<?php endif; ?>		
+			
 			</div>
 			
 		<?php

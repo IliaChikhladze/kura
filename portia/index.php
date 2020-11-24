@@ -16,7 +16,7 @@ if ( true === infinity_options('carousel_show') && $carousel_style !== 'inner_gr
 // Promo Boxes
 if ( true === infinity_options('promo_box_show') ) {
 	infinity_promo_box();
-} 
+}
 ?>
 
 <div class="main-container-wrap" data-sidebar="<?php echo esc_attr( $sidebar_position ); ?>">

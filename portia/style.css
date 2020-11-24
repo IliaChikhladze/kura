@@ -1923,7 +1923,7 @@ input[type="submit"],
 
 .featured-item:last-child {
     margin: 0;
-    padding 0;
+    padding: 0;
     border-bottom: none;
 }
 
@@ -2196,8 +2196,8 @@ input[type="submit"],
 
 .carousel-pagination-item span {
     display: block;
-    width: 12px;
-    height: 12px;
+    width: 15px;
+    height: 15px;
     margin-right: 10px;
     border-style: solid;
     border-width: 2px;
@@ -2305,40 +2305,16 @@ input[type="submit"],
 
 /* 5.2 Promo Box Area */
 .infinity-promo-box-area {
+    display: grid;
     padding-top: 40px;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-}
-
-
-.infinity-carousel-wrap ~ .infinity-promo-box-area {
-    padding-top: 30px;
 }
 
 .infinity-promo-box {
     position: relative;
-    display: -webkit-flex;
-    display: flex;
-    margin-right: 30px;
-    -webkit-flex-grow: 1;
-    -webkit-flex-shrink: 1;
-    flex-grow: 1;
-    flex-shrink: 1;
-    height: 300px;
-}
-
-.infinity-promo-box-bg {
-    width: 100%;
-    height: 100%;
+    padding: 20px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-}
-
-.infinity-promo-box:last-child {
-    margin: 0;
 }
 
 .infinity-promo-box-link {
@@ -2351,14 +2327,19 @@ input[type="submit"],
     z-index: 9999;
 }
 
+.infinity-promo-box-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+}
+
 .infinity-promo-box-title {
-    position: absolute;
     display: inline-block;
-    left: 50%;
-    top: 50%;
-    -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     padding: 0px 18px;
     line-height: 2.5;
     font-weight: bold;

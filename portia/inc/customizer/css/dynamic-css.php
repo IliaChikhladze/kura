@@ -12,7 +12,7 @@ $css = '<style>';
 
 	// Site Width  -1
 	$css .= '.center-width {
-		max-width: 1180px;
+		max-width: 1220px;
 	}';
 
 	// Content Padding -1 
@@ -266,8 +266,34 @@ $css = '<style>';
 		height: 220px;
 	}';
 
+	// Columns
+	$promo_box_grid = '';
+	$promo_box_columns = (int)infinity_options('promo_box_columns');
+	
+	for ($i=0; $i < $promo_box_columns; $i++) { 
+		$promo_box_grid .= '1fr ';
+	}
 
+	$css .= '.infinity-promo-box-area {
+		grid-template-columns: '.esc_attr($promo_box_grid) .';
+	}';
 
+	// Gutter
+	$css .= '.infinity-promo-box-area {
+		grid-gap: 30px 30px;
+	}';
+
+	$css .= '.infinity-carousel-wrap ~ .infinity-promo-box-area {
+		padding-top: 30px;
+	}';
+
+	// Show Border
+	if ( infinity_options('promo_box_show_border') === true ) {
+		$css .= '.infinity-promo-box-overlay {
+			border: 1px solid rgba(255,255,255, 0.8);
+		}';
+	}
+	
 
 /**
  * ----------------------------------------------------------------------------------------
